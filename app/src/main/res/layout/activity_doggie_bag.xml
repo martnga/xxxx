@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="3dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        card_view:cardElevation="0.01dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:background="#fff"
+            android:paddingLeft="@dimen/pad_10dp"
+            android:paddingTop="@dimen/pad_10dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/restaurant_hood_txt"
+                android:paddingLeft="@dimen/pad_30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:alpha="0.8"
+                android:textColor="#000"
+                android:textSize="23sp"
+                android:text="Test"
+                android:paddingBottom="@dimen/pad_5dp"
+                 />
+
+
+            <TextView
+                android:id="@+id/restaurant_street_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:alpha="0.8"
+                android:textColor="#000"
+                android:textSize="23sp"
+                android:text="Test"
+                />
+
+            <TextView
+                android:id="@+id/restaurant_apartment_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.8"
+                android:textColor="#000"
+                android:textSize="23sp"
+                android:text="Test"
+                />
+
+            <TextView
+                android:id="@+id/restaurant_other_info_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.8"
+                android:textColor="#000"
+                android:textSize="23sp"
+                android:text="Test"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+
+                <TextView
+                    android:id="@+id/restaurant_map_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="@dimen/pad_30dp"
+                    android:alpha="0.8"
+                    android:textColor="@color/green"
+                    android:textSize="23sp"
+                    android:text="Map"
+                    android:paddingBottom="@dimen/pad_5dp"
+                    android:paddingRight="@dimen/pad_5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/restaurant_call_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/restaurant_map_txt"
+                    android:alpha="0.8"
+                    android:textColor="@color/green"
+                    android:textSize="23sp"
+                    android:text="Call"
+                    android:paddingBottom="@dimen/pad_5dp"
+                    />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="3dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        card_view:cardElevation="0.01dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:background="#fff"
+            android:paddingLeft="@dimen/pad_10dp"
+            android:paddingTop="@dimen/pad_10dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/customer_hood_txt"
+                android:paddingLeft="@dimen/pad_30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:alpha="0.8"
+                android:textColor="#000"
+                android:textSize="23sp"
+                android:text="Test"
+                android:paddingBottom="@dimen/pad_5dp"
+                android:paddingRight="@dimen/pad_5dp"
+                 />
+
+
+            <TextView
+                android:id="@+id/customer_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:alpha="0.8"
+                android:textColor="#000"
+                android:textSize="23sp"
+                android:text="Test"
+                />
+
+            <TextView
+                android:id="@+id/customer_apartment_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.8"
+                android:textColor="#000"
+                android:textSize="23sp"
+                android:text="Test"
+                />
+
+            <TextView
+                android:id="@+id/customer_other_info_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.8"
+                android:textColor="#000"
+                android:textSize="23sp"
+                android:text="Test"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+                <TextView
+                    android:id="@+id/customer_map_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="@dimen/pad_30dp"
+                    android:alpha="0.8"
+                    android:textColor="@color/green"
+                    android:textSize="23sp"
+                    android:text="Map"
+                    android:paddingBottom="@dimen/pad_5dp"
+                    android:paddingRight="@dimen/pad_5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/customer_call_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/customer_map_txt"
+                    android:alpha="0.8"
+                    android:textColor="@color/green"
+                    android:textSize="23sp"
+                    android:text="Call"
+                    android:paddingBottom="@dimen/pad_5dp"
+                    />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="3dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        card_view:cardElevation="0.01dp"
+        android:layout_marginBottom="0dp"
+        >
+
+        <TextView
+            android:id="@+id/items_total_price_txt"
+            android:alpha="0.8"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:text="Test"
+            android:paddingLeft="@dimen/pad_10dp"
+            android:paddingRight="@dimen/pad_10dp"
+            android:paddingTop="@dimen/pad_15dp"
+            android:paddingBottom="@dimen/pad_15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/order_status_btn"
+        android:text="status"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/pad_35dp"
+        android:layout_marginLeft="@dimen/pad_15dp"
+        android:layout_marginRight="@dimen/pad_15dp"
+        android:layout_height="@dimen/pad_55dp"
+        android:background="@drawable/normal_button_border"
+        android:textSize="23sp"
+        android:layout_marginEnd="@dimen/pad_10dp"
+        android:layout_marginStart="@dimen/pad_10dp"/>
+
+
+</LinearLayout>

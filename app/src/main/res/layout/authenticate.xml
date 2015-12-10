@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+     >
+
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"/>
+
+    <TextView
+        android:id="@+id/restaurant_call_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/txt_30sp"
+        android:layout_marginTop="@dimen/pad_55dp"
+        android:layout_gravity="center_horizontal"
+        android:text="LOG IN"
+        android:paddingBottom="@dimen/pad_5dp"
+        />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number_layout"
+        android:textColorHint="@color/primary"
+        android:layout_width="match_parent"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/phone_number_txt"
+            style="@style/edittext_msg"
+            android:textColorHint="@color/primary"
+            android:textColor="@color/primary"
+            android:hint="Phone Number"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:inputType="phone"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/pad_10dp"
+            android:layout_marginRight="@dimen/pad_10dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/password_layout"
+        android:textColorHint="@color/primary"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:layout_height="wrap_content"
+            style="@style/edittext_msg"
+            android:textColorHint="@color/primary"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+            android:id="@+id/password_txt"
+            android:layout_marginLeft="@dimen/pad_10dp"
+            android:layout_marginRight="@dimen/pad_10dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pad_55dp"
+        android:text="Register"
+        android:id="@+id/loginBtn"
+        android:textColor="@color/white"
+        android:background="@drawable/normal_button_border"
+        android:textSize="23sp"
+        android:layout_marginTop="@dimen/pad_55dp"
+        android:layout_marginRight="@dimen/pad_20dp"
+        android:layout_marginEnd="@dimen/pad_20dp"
+        android:layout_marginStart="@dimen/pad_20dp"
+        android:layout_marginLeft="@dimen/pad_20dp"/>
+
+</LinearLayout>

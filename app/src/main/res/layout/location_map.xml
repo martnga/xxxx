@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/primary"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/top_bar_left_side_button_margin_start"
+            android:layout_marginStart="@dimen/top_bar_left_side_button_margin_start"
+            android:src="@drawable/ic_back"
+            android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/stranger_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:paddingRight="@dimen/location_text_padding_end"
+            android:paddingEnd="@dimen/location_text_padding_end"
+            android:paddingLeft="@dimen/location_text_padding_start"
+            android:paddingStart="@dimen/location_text_padding_start"
+            android:paddingTop="@dimen/location_text_padding_top"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/primary"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
